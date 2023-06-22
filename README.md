@@ -1,2 +1,6 @@
 # Project_WALLE
- Fiz toda a parte de layout e elementos do app além das orientações. 
+     - WALL-APP
+- o app possui quatro paginas além da principal;
+- uma pagina interliga com a outra;
+- nosso objetivo foi passar isso de forma objetiva;
+- tentamos passar cada pagina de forma explicativa ao usuario;
