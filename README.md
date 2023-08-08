@@ -13,4 +13,3 @@ Atualizações possíveis para o Aplicativo:
 - Reorganização das informações apresentadas no aplicativo
 - Adicionar mais botões com as telas que serão criadas
 - Colocar mais conteúdo das informações abordadas
-- 
