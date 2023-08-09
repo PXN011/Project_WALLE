@@ -13,3 +13,9 @@ Atualizações possíveis para o Aplicativo:
 - Reorganização das informações apresentadas no aplicativo
 - Adicionar mais botões com as telas que serão criadas
 - Colocar mais conteúdo das informações abordadas
+
+Diagrama de classes - https://drive.google.com/file/d/1sWcJBAgHyAk4uQmlCtiioVNj6COmq6mm/view?usp=sharing
+![Diagrama de Classes](https://github.com/PXN011/Project_WALLE/assets/127432212/0784990d-ac6b-4a7d-befc-bb72d1e43697)
+[Diagrama de Classes do Aplicativo.docx](https://github.com/PXN011/Project_WALLE/files/12306243/Diagrama.de.Classes.do.Aplicativo.docx)
+
+O Diagrama de Classes teria a "Informação", "Planta" e "lixo" como as classes, pois eles estariam trazendo o conteúdo abordado dentro do aplitavivo. As plantas seriam catalogadas com imgens e os tipos de lixo também, e a informação seria o ponto que iria interligar ambas as classes.
