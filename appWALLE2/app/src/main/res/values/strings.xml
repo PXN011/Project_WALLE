@@ -1,3 +1,26 @@
 <resources>
     <string name="WALLE">appWALL-E</string>
+    <string name="TitleName1">Wall-App</string>
+    <string name="TtileName2">Concientização</string>
+    <string name="TitleName3">Orientar</string>
+
+    <!--Informações-->
+    <string name="ExpliLixo">Segundo a usp.br, indica que o descarte irrecular do lixo eletrônico cresceu 49% na ultima década.</string>
+    <string name="ExpliLixo2">Para este tipo de serviço existe uma colotora chamada greeneltron.org.br,pronta para solucionar sua questão, desta forma o lixo é recolido e descartado da melhor forma.</string>
+    <string name="ExplicaPlanta">Sabemos que plantas em geral são muito boas não só para o meio ambiente mais também a nós por isso precisamos saber cuidar delas da melhor forma.</string>
+    <string name="Explicaplanta2">Elas podem ficar venenosas indica a scielo que 39% delas ficam. Então regue sua planta sazonalmente limpe o vazo e trate a terra com palhinhas protetoras.</string>
+    <string name="ResumoLixo"></string>
+
+    <!--Imagens-->
+    <string name="ImgWall">Wall</string>
+    <string name="ImgWall2">Wall2</string>
+    <string name="ImgWall3">Wall3</string>
+    <string name="ImgWall4">Wall4</string>
+    <string name="Img">Ciclo</string>
+
+    <!--Botões-->
+
+    <string name="btnPlanta2">PlantaAtalho</string>
+    <string name="btnRobo">Lixo</string>
+    <string name="btnPlanta">Planta</string>
 </resources>

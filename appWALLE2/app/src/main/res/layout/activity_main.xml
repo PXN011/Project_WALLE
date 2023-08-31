@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtTítulo"
+        android:layout_width="148dp"
+        android:layout_height="73dp"
+        android:backgroundTint="@color/green"
+        android:gravity="center"
+        android:text="@string/TitleName1"
+        android:textColor="@color/darkgreen"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
     <View
         android:id="@+id/view"
         android:layout_width="411dp"
@@ -18,63 +36,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="114dp"
-        android:layout_height="107dp"
-        android:contentDescription="@string/WALLE"
-        android:onClick="abrirRobot"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.801"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57"
-        app:srcCompat="@drawable/planta" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="148dp"
-        android:layout_height="73dp"
-        android:background="#FFF8F8"
-        android:text="Wall-App"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.003" />
-
     <View
         android:id="@+id/view2"
-        android:layout_width="90dp"
-        android:layout_height="68dp"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
         android:background="#4BC550"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.003" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <View
         android:id="@+id/view3"
-        android:layout_width="122dp"
-        android:layout_height="70dp"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
         android:background="#4BC550"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btnrobo"
         android:layout_width="106dp"
         android:layout_height="107dp"
-        android:contentDescription="@string/WALLE"
+        android:contentDescription="@string/btnRobo"
         android:onClick="abrirTela"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,5 +73,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.57"
         app:srcCompat="@drawable/wallapp" />
+
+    <ImageView
+        android:id="@+id/btnplanta"
+        android:layout_width="114dp"
+        android:layout_height="107dp"
+        android:contentDescription="@string/btnPlanta"
+        android:onClick="abrirRobot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        app:srcCompat="@drawable/planta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
