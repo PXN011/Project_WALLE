@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(CatalogoPlanta);
 
     }
+    public void IrMapa(View v){
+        Intent Mapa = new Intent(this, Mapa.class);
+        startActivity(Mapa);
+
+    }
 }
