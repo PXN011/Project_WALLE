@@ -3,6 +3,8 @@
     <string name="TitleName1">Wall-App</string>
     <string name="TtileName2">Concientização</string>
     <string name="TitleName3">Orientar</string>
+    <string name="TitleName4">Catalogo de Plantas</string>
+    <string name="TitleName5">Catalogo de Tipos de Lixo</string>
 
     <!--Informações-->
     <string name="ExpliLixo">Segundo a usp.br, indica que o descarte irrecular do lixo eletrônico cresceu 49% na ultima década.</string>
@@ -11,6 +13,15 @@
     <string name="Explicaplanta2">Elas podem ficar venenosas indica a scielo que 39% delas ficam. Então regue sua planta sazonalmente limpe o vazo e trate a terra com palhinhas protetoras.</string>
     <string name="ResumoLixo"></string>
 
+    <string name="ExpliBati">O barbatimão constitui um género botânico pertencente à família Fabaceae.</string>
+    <string name="ExpliCopa">A copaíba é uma planta medicinal da espécie Copaifera langsdorffii, indicada parano tratamento de problemas de pele, como eczema, psoríase ou feridas, ou ainda para tosse, bronquite, dor nas articulações ou infecções urinárias.</string>
+    <string name="ExpliGua">O guaraná, comumente chamado guaranazeiro e uaraná, é um cipó originário da Amazônia. </string>
+    <string name="ExpliEucalipto">Eucalyptus é um género de plantas com flor da família Myrtaceae que agrupa as espécies conhecidas pelo nome comum de eucalipto. A folha de eucalipto pode ser usada no preparo de chás e ajudam a melhorar diversos problemas de saúde.</string>
+
+    <string name="ExpliEletro">Resíduo computacional, também conhecido como resíduo eletrônico ou lixo eletrônico, são os equipamentos eletrônicos descartados ou obsoletos. A definição inclui computadores, televisores, telemóveis/celulares, entre outros dispositivos.</string>
+    <string name="ExpliRecicla">O lixo reciclável engloba todos os materiais que podem ser reciclados para voltar ao consumidor. </string>
+    <string name="ExpliNaoReci">Materiais não recicláveis são aqueles constituídos por substâncias difíceis de se separar e cujos benefícios do processo de reciclagem não superam os custos.</string>
+
     <!--Imagens-->
     <string name="ImgWall">Wall</string>
     <string name="ImgWall2">Wall2</string>
@@ -18,9 +29,22 @@
     <string name="ImgWall4">Wall4</string>
     <string name="Img">Ciclo</string>
 
+    <string name="batimaoplant">bantimão</string>
+    <string name="copaPlant">copaíba</string>
+    <string name="GuaPlant">Guaraná</string>
+    <string name="EucaliptoPlant">Eucalípto</string>
+
+    <string name="LixoEle">LixoEletronico</string>
+    <string name="LixoReci">LixoReciclavel</string>
+    <string name="LixoNaoReci">LixoNão-Reciclável</string>
+    <string name="TipoLixo">Nenhuma Imagem</string>
+
     <!--Botões-->
 
     <string name="btnPlanta2">PlantaAtalho</string>
     <string name="btnRobo">Lixo</string>
     <string name="btnPlanta">Planta</string>
+    <string name="btnCatalogoPlan">Catalogo de Plantas</string>
+    <string name="btnCatalogoLixo">Catalogo de Lixo</string>
+
 </resources>

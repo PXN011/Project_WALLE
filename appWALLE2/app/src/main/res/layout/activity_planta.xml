@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:backgroundTint="@color/white"
     tools:context=".planta">
 
     <ImageView
@@ -76,6 +78,7 @@
         android:layout_width="138dp"
         android:layout_height="200dp"
         android:text="@string/ExpliLixo"
+        android:textColor="@color/black"
         android:textIsSelectable="false"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -92,6 +95,7 @@
         android:layout_width="150dp"
         android:layout_height="235dp"
         android:text="@string/ExpliLixo2"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"

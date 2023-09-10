@@ -21,4 +21,15 @@ public class MainActivity extends AppCompatActivity {
         Intent robot=new Intent (this, robo.class);
         startActivity (robot);
     }
+
+    public void ApresentarLixo(View v){
+        Intent CatalogoLixo = new Intent(this,CatalogoLixo.class);
+        startActivity(CatalogoLixo);
+    }
+
+    public void ApresentarPlanta(View v){
+        Intent CatalogoPlanta = new Intent(this, CatalogoPlanta.class);
+        startActivity(CatalogoPlanta);
+
+    }
 }

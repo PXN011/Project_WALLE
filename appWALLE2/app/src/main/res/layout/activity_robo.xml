@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:backgroundTint="@color/white"
     tools:context=".robo">
 
     <TextView
@@ -29,6 +31,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="93dp"
         android:text="@string/ExplicaPlanta"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
@@ -47,6 +50,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="70dp"
         android:text="@string/Explicaplanta2"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
