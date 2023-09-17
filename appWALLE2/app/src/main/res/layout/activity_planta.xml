@@ -9,7 +9,7 @@
     tools:context=".planta">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgWall2"
         android:layout_width="138dp"
         android:layout_height="134dp"
         android:contentDescription="@string/ImgWall2"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/rozinho" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgCiclo"
         android:layout_width="61dp"
         android:layout_height="51dp"
         android:contentDescription="@string/Img"
@@ -34,7 +34,7 @@
         app:srcCompat="@drawable/trocasinal" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgWall"
         android:layout_width="131dp"
         android:layout_height="135dp"
         android:contentDescription="@string/ImgWall"
@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/robozao" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgWall3"
         android:layout_width="130dp"
         android:layout_height="136dp"
         android:contentDescription="@string/ImgWall3"
@@ -74,7 +74,7 @@
         app:srcCompat="@drawable/planta" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtLixo"
         android:layout_width="138dp"
         android:layout_height="200dp"
         android:text="@string/ExpliLixo"
@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.728" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtLixo2"
         android:layout_width="150dp"
         android:layout_height="235dp"
         android:text="@string/ExpliLixo2"
@@ -107,7 +107,7 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtConcie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/TtileName2"
@@ -125,7 +125,7 @@
         android:layout_width="415dp"
         android:layout_height="40dp"
         android:background="#4BC550"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/txtConcie"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -141,6 +141,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imgCiclo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

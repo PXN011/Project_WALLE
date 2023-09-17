@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtTítulo"
+        android:id="@+id/txtMapa"
         android:layout_width="148dp"
         android:layout_height="73dp"
         android:backgroundTint="@color/green"

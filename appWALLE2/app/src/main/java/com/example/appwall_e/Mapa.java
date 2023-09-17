@@ -22,5 +22,21 @@ public class Mapa extends AppCompatActivity {
         Intent mapIntent = new Intent(Intent.ACTION_VIEW,location);
         startActivity(mapIntent);
     }
-}
+    public void ApresentarSite(View v){
 
+        Uri uri = Uri.parse("https://jardimbotanico.com.br/");
+        Intent it = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(it);
+
+
+    }
+    public void LigarJardim(View v){
+        Uri uri = Uri.parse("tel:123456789");
+        Intent li = new Intent(Intent.ACTION_DIAL,uri);
+        startActivity(li);
+
+    }
+
+
+
+}

@@ -9,7 +9,7 @@
     tools:context=".Mapa">
 
     <TextView
-        android:id="@+id/txtTítulo"
+        android:id="@+id/txtMapa"
         android:layout_width="148dp"
         android:layout_height="73dp"
         android:backgroundTint="@color/green"
@@ -51,18 +51,106 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnMapa"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="436dp"
         android:layout_marginEnd="160dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="@color/darkgreen"
         android:onClick="ApresentarMapa"
         android:text="@string/btnMapa"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTítulo" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSite" />
+
+    <Button
+        android:id="@+id/btnSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="165dp"
+        android:backgroundTint="@color/darkgreen"
+        android:onClick="ApresentarSite"
+        android:text="@string/btnSite"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnMapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnligar" />
+
+    <Button
+        android:id="@+id/btnligar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/darkgreen"
+        android:onClick="LigarJardim"
+        android:text="@string/btnChamada"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnSite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMapa"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <ImageView
+        android:id="@+id/imgWall5"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/ImgWall5"
+        app:layout_constraintBottom_toTopOf="@+id/btnligar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgWall6"
+        app:layout_constraintTop_toBottomOf="@+id/txtMapa"
+        app:layout_constraintVertical_bias="0.628"
+        app:srcCompat="@drawable/_71a6717_5eba_45d3_989a_cac0397a6612" />
+
+    <ImageView
+        android:id="@+id/imgWall6"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/ImgWall6"
+        app:layout_constraintBottom_toTopOf="@+id/btnligar"
+        app:layout_constraintEnd_toStartOf="@+id/imgWall5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMapa"
+        app:layout_constraintVertical_bias="0.625"
+        app:srcCompat="@drawable/ae46f36f94e2d638db65cc1e218f85f4" />
+
+    <TextView
+        android:id="@+id/txtEscolher"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center|center_vertical"
+        android:text="@string/TxtEsco"
+        android:textColor="@color/darkgreen"
+        android:textColorHighlight="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/btnligar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMapa" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

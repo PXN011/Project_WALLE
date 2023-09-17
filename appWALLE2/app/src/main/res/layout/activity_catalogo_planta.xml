@@ -9,7 +9,7 @@
     tools:context=".CatalogoPlanta">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imgGuara"
         android:layout_width="120dp"
         android:layout_height="100dp"
         android:layout_marginStart="30dp"
@@ -18,15 +18,15 @@
         android:background="@drawable/ic_launcher_background"
         android:backgroundTint="@color/white"
         android:contentDescription="@string/GuaPlant"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/textView39"
+        app:layout_constraintBottom_toTopOf="@+id/imgEucali"
+        app:layout_constraintEnd_toStartOf="@+id/txtGuara"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imgCopa"
         app:srcCompat="@drawable/guaran_"
         tools:srcCompat="@drawable/guaran_" />
 
     <TextView
-        android:id="@+id/txtTítulo"
+        android:id="@+id/txtMapa"
         android:layout_width="148dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/green"
@@ -52,7 +52,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEucali" />
 
     <View
         android:id="@+id/view2"
@@ -77,7 +77,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imgEucali"
         android:layout_width="120dp"
         android:layout_height="100dp"
         android:layout_marginStart="30dp"
@@ -87,14 +87,14 @@
         android:backgroundTint="@color/white"
         android:contentDescription="@string/EucaliptoPlant"
         app:layout_constraintBottom_toTopOf="@+id/view"
-        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintEnd_toStartOf="@+id/txtEucali"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imgGuara"
         app:srcCompat="@drawable/eucalipto"
         tools:srcCompat="@drawable/eucalipto" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgCopa"
         android:layout_width="120dp"
         android:layout_height="100dp"
         android:layout_marginStart="30dp"
@@ -102,16 +102,16 @@
         android:background="@drawable/ic_launcher_background"
         android:backgroundTint="@color/white"
         android:contentDescription="@string/copaPlant"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toStartOf="@+id/textView38"
+        app:layout_constraintBottom_toTopOf="@+id/imgGuara"
+        app:layout_constraintEnd_toStartOf="@+id/txtCopa"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imgBarti"
         app:srcCompat="@drawable/copa_ba"
         tools:srcCompat="@drawable/copa_ba" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/txtBarti"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginTop="80dp"
@@ -123,14 +123,14 @@
         android:textSize="14sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintBottom_toTopOf="@+id/txtCopa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imgBarti"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/txtCopa"
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginEnd="20dp"
@@ -140,13 +140,13 @@
         android:textSize="14sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintBottom_toTopOf="@+id/txtGuara"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+        app:layout_constraintStart_toEndOf="@+id/imgCopa"
+        app:layout_constraintTop_toBottomOf="@+id/txtBarti" />
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/txtGuara"
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginEnd="25dp"
@@ -156,14 +156,14 @@
         android:textSize="12sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintBottom_toTopOf="@+id/txtEucali"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+        app:layout_constraintStart_toEndOf="@+id/imgGuara"
+        app:layout_constraintTop_toBottomOf="@+id/txtCopa" />
 
     <TextView
-        android:id="@+id/textView40"
+        android:id="@+id/txtEucali"
         android:layout_width="200dp"
         android:layout_height="120dp"
         android:layout_marginEnd="25dp"
@@ -176,11 +176,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+        app:layout_constraintStart_toEndOf="@+id/imgEucali"
+        app:layout_constraintTop_toBottomOf="@+id/txtGuara" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgBarti"
         android:layout_width="120dp"
         android:layout_height="100dp"
         android:layout_marginStart="30dp"
@@ -190,8 +190,8 @@
         android:background="@drawable/ic_launcher_background"
         android:backgroundTint="@color/white"
         android:contentDescription="@string/batimaoplant"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintBottom_toTopOf="@+id/imgCopa"
+        app:layout_constraintEnd_toStartOf="@+id/txtBarti"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
