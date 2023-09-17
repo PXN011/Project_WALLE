@@ -28,3 +28,10 @@ O Diagrama de Classes teria a "Informação", "Planta" e "lixo" como as classes,
 - Tem duas tela com catalogo, dando uma breve explicação dos subtemas;
 - Outras duas telas dando uma breve informação;
 
+# Vídeo da Execução do Aplicativo
+
+https://github.com/PXN011/Project_WALLE/assets/127432212/4e7f8a74-1ddb-4610-bfb4-1a1d8b18e562
+
+
+
+
