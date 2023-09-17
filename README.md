@@ -19,3 +19,12 @@ https://drive.google.com/file/d/1t5uvJJQYpXEYLVGNu8zA1dM5kjpAHgVK/view?usp=shari
 [Diagrama de Classes do Aplicativo.docx](https://github.com/PXN011/Project_WALLE/files/12316315/Diagrama.de.Classes.do.Aplicativo.docx)
 
 O Diagrama de Classes teria a "Informação", "Planta" e "lixo" como as classes, pois eles estariam trazendo o conteúdo abordado dentro do aplitavivo. As plantas seriam catalogadas com imgens e os tipos de lixo também, e a informação seria o ponto que iria interligar ambas as classes.
+
+# Dupla do Projeto - Moisés dos Santos Cruz e Matheus Peixinho
+
+- O Wall-App conxiste em demonstrar informações sobbre as plantas e o lixo que descartamos como em recilagem ou de outras maneiras, usando o mascote do filme Wall-E;
+- É voltado para informar o usuário coisas básicas sobre plantas, principalmente as medicionais, monstrando a importancia da natureza em nosso meio;
+- A primeira tela é onde será direcionada as demais telas;
+- Tem duas tela com catalogo, dando uma breve explicação dos subtemas;
+- Outras duas telas dando uma breve informação;
+
