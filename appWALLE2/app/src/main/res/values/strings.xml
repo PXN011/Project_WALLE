@@ -6,6 +6,7 @@
     <string name="TitleName4">Catalogo de Plantas</string>
     <string name="TitleName5">Catalogo de Tipos de Lixo</string>
     <string name="TitleName6">Mapa</string>
+    <string name="TitleName7">Sensor de Luz</string>
 
     <!--Informações-->
     <string name="ExpliLixo">Segundo a usp.br, indica que o descarte irrecular do lixo eletrônico cresceu 49% na ultima década.</string>
@@ -54,4 +55,5 @@
     <string name="btnMapaPri">Ir ao Mapa</string>
     <string name="btnSite">Apresentar o Site</string>
     <string name="btnChamada">Efetuar Ligação ao Jardim Botanico SP</string>
+    <string name="btnSensor">Sensor</string>
 </resources>

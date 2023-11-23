@@ -37,4 +37,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Mapa);
 
     }
+    public void abrirSensor(View z){
+        Intent Sensor =new Intent (this, Sensor.class);
+        startActivity (Sensor);
+    }
+
+
+
 }
