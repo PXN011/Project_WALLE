@@ -33,5 +33,22 @@ O Diagrama de Classes teria a "Informação", "Planta" e "lixo" como as classes,
 https://github.com/PXN011/Project_WALLE/assets/127432212/4e7f8a74-1ddb-4610-bfb4-1a1d8b18e562
 
 
+# Sensores - Sensor TYPE_LIGHT - Matheus Peixinho/Moisés Cruz
+
+- Usar uma TextView para mostrar os dados
+- No código será adicionado qual sensor será usado no caso o TYPE_LIGHT
+- Dentro será declarado a TextView, SensorManager e o Sensor (andorid.hardware.sensor)
+- Após declará-los no on create, terá de colocar o implements SensorEventListener
+- Com isso adicionar o OnSensorChanged (Mostrará a detecção da luz pela câmera) e onAccurracyChanged
+- Assim apenas adicionando o Onpause e onResume que farar o sensor parar ou continuar da onde parou.
+
+  
+# Vídeo do Sensor
+https://github.com/PXN011/Project_WALLE/assets/127432212/e1784843-3c32-4f8f-bace-59cdbd1d800a
+
+
+
+
+
 
 
